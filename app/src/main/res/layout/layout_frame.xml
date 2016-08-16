@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#4f00"
+        android:text="第一层"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/second"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:visibility="gone"
+        android:background="#60f0"
+        android:text="第二层"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/third"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:background="#500f"
+        android:text="第三层"
+        android:textSize="30sp" />
+</FrameLayout>

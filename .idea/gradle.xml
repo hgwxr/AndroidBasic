@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:\wl\tools\android-studio\gradle\gradle-2.10" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activitypassdata" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/asyncdemo" />
+            <option value="$PROJECT_DIR$/button" />
+            <option value="$PROJECT_DIR$/completetextview" />
+            <option value="$PROJECT_DIR$/dongtaiview" />
+            <option value="$PROJECT_DIR$/listappdemo" />
+            <option value="$PROJECT_DIR$/listmultillayout" />
+            <option value="$PROJECT_DIR$/listpartrefresh" />
+            <option value="$PROJECT_DIR$/listviewItemclick" />
+            <option value="$PROJECT_DIR$/listviewdemo" />
+            <option value="$PROJECT_DIR$/mvphelloworld" />
+            <option value="$PROJECT_DIR$/progress" />
+            <option value="$PROJECT_DIR$/xianghaapp" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activitypassdata" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/asyncdemo" />
+            <option value="$PROJECT_DIR$/button" />
+            <option value="$PROJECT_DIR$/completetextview" />
+            <option value="$PROJECT_DIR$/dongtaiview" />
+            <option value="$PROJECT_DIR$/listappdemo" />
+            <option value="$PROJECT_DIR$/listmultillayout" />
+            <option value="$PROJECT_DIR$/listpartrefresh" />
+            <option value="$PROJECT_DIR$/listviewItemclick" />
+            <option value="$PROJECT_DIR$/listviewdemo" />
+            <option value="$PROJECT_DIR$/mvphelloworld" />
+            <option value="$PROJECT_DIR$/progress" />
+            <option value="$PROJECT_DIR$/xianghaapp" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

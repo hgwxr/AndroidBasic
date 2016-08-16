@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item  android:id="@+id/remove"
+        android:title="不查看这条信息"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="1"
+        android:menuCategory="container"
+        ></item>
+    <item  android:id="@+id/cancel"
+        android:title="点错了"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="1"
+        android:menuCategory="container"
+        ></item>
+</menu>

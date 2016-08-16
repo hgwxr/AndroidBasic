@@ -1,0 +1,1 @@
+include ':app', ':button', ':completetextview', ':progress', ':progress', ':activitypassdata', ':asyncdemo', ':listviewdemo', ':listappdemo', ':listviewItemclick', ':mvphelloworld', ':listpartrefresh', ':listmultillayout', ':xianghaapp', ':dongtaiview'

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/main_selector"
+            android:button="@null"
+            android:checked="true"
+            android:id="@+id/lean_cook"
+            android:text="学做菜"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/shop"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/main_selector"
+            android:button="@null"
+            android:text="商城"
+            android:textSize="15sp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/shequ"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/main_selector"
+            android:button="@null"
+            android:text="社区"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/message"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/main_selector"
+            android:button="@null"
+            android:text="消息"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/self"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/main_selector"
+            android:button="@null"
+            android:text="我的"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rg"
+        android:layout_marginBottom="10dp"></FrameLayout>
+</RelativeLayout>

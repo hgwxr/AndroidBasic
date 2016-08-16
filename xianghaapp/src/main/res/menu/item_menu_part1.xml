@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/changeMenu"
+        android:icon="@mipmap/ic_launcher"
+        android:menuCategory="alternative"
+        android:orderInCategory="3"
+        android:title="切换视图"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/notMenu"
+        android:icon="@mipmap/ic_launcher"
+        android:menuCategory="alternative"
+        android:orderInCategory="1"
+        android:title="未开发菜单"
+        app:showAsAction="never|withText" />
+    <item
+        android:id="@+id/nopic"
+        android:title="无图模式"
+        android:icon="@mipmap/ic_launcher" />
+    <group android:checkableBehavior="all">
+        <!--<item-->
+        <!--android:id="@+id/noPic"-->
+        <!--android:icon="@mipmap/ic_launcher"-->
+        <!--android:orderInCategory="1"-->
+        <!--android:title="无图模式"-->
+        <!--app:showAsAction="never|withText"></item>-->
+
+        <item
+            android:id="@+id/notMenu1"
+            android:icon="@mipmap/ic_launcher"
+            android:menuCategory="alternative"
+            android:orderInCategory="1"
+            android:title="未开发菜单"
+            app:showAsAction="never|withText" />
+    </group>
+</menu>

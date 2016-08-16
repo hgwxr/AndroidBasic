@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/commUser"
+    android:layout_marginLeft="40px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="55dp"
+    android:layout_height="40dp"
+    android:id="@+id/hotUser"
+    android:scaleType="fitXY"
+    android:src="@mipmap/ic_launcher"
+    android:layout_gravity="center"
+    />
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="刘佳"
+        android:textSize="15sp"
+        android:textColor="@color/wordsCategoryColor"
+        android:layout_below="@id/hotUser"
+        android:layout_gravity="center"
+         android:ellipsize="end"
+        />
+</LinearLayout>

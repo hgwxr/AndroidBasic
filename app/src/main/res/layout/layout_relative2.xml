@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="x"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="touxiang"
+        android:textSize="30sp"
+        android:id="@+id/touxiang"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:text="yonghuming"
+        android:id="@+id/name"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/touxiang"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:text="mima"
+        android:id="@+id/psd"
+        android:layout_below="@id/name"
+        android:layout_alignLeft="@id/name"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="25sp"
+        android:text="denglu"
+        android:layout_toRightOf="@id/psd"
+        android:layout_alignBottom="@id/psd"
+        android:layout_marginLeft="100dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="jiantou"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

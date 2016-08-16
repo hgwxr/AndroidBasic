@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activitypassdata/activitypassdata.iml" filepath="$PROJECT_DIR$/activitypassdata/activitypassdata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asyncdemo/asyncdemo.iml" filepath="$PROJECT_DIR$/asyncdemo/asyncdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/button/button.iml" filepath="$PROJECT_DIR$/button/button.iml" />
+      <module fileurl="file://$PROJECT_DIR$/completetextview/completetextview.iml" filepath="$PROJECT_DIR$/completetextview/completetextview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dongtaiview/dongtaiview.iml" filepath="$PROJECT_DIR$/dongtaiview/dongtaiview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listappdemo/listappdemo.iml" filepath="$PROJECT_DIR$/listappdemo/listappdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listmultillayout/listmultillayout.iml" filepath="$PROJECT_DIR$/listmultillayout/listmultillayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listpartrefresh/listpartrefresh.iml" filepath="$PROJECT_DIR$/listpartrefresh/listpartrefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listviewItemclick/listviewItemclick.iml" filepath="$PROJECT_DIR$/listviewItemclick/listviewItemclick.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listviewdemo/listviewdemo.iml" filepath="$PROJECT_DIR$/listviewdemo/listviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listviewItemclick/listviewdemo2.iml" filepath="$PROJECT_DIR$/listviewItemclick/listviewdemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvphelloworld/mvphelloworld.iml" filepath="$PROJECT_DIR$/mvphelloworld/mvphelloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progress/progress.iml" filepath="$PROJECT_DIR$/progress/progress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xianghaapp/xianghaapp.iml" filepath="$PROJECT_DIR$/xianghaapp/xianghaapp.iml" />
+    </modules>
+  </component>
+</project>
