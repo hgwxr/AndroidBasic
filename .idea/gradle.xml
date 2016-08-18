@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/button" />
             <option value="$PROJECT_DIR$/completetextview" />
             <option value="$PROJECT_DIR$/dongtaiview" />
+            <option value="$PROJECT_DIR$/fragment" />
             <option value="$PROJECT_DIR$/listappdemo" />
             <option value="$PROJECT_DIR$/listmultillayout" />
             <option value="$PROJECT_DIR$/listpartrefresh" />
@@ -22,6 +23,7 @@
             <option value="$PROJECT_DIR$/listviewdemo" />
             <option value="$PROJECT_DIR$/mvphelloworld" />
             <option value="$PROJECT_DIR$/progress" />
+            <option value="$PROJECT_DIR$/sqlitedemo" />
             <option value="$PROJECT_DIR$/xianghaapp" />
           </set>
         </option>
@@ -34,6 +36,7 @@
             <option value="$PROJECT_DIR$/button" />
             <option value="$PROJECT_DIR$/completetextview" />
             <option value="$PROJECT_DIR$/dongtaiview" />
+            <option value="$PROJECT_DIR$/fragment" />
             <option value="$PROJECT_DIR$/listappdemo" />
             <option value="$PROJECT_DIR$/listmultillayout" />
             <option value="$PROJECT_DIR$/listpartrefresh" />
@@ -41,6 +44,7 @@
             <option value="$PROJECT_DIR$/listviewdemo" />
             <option value="$PROJECT_DIR$/mvphelloworld" />
             <option value="$PROJECT_DIR$/progress" />
+            <option value="$PROJECT_DIR$/sqlitedemo" />
             <option value="$PROJECT_DIR$/xianghaapp" />
           </set>
         </option>

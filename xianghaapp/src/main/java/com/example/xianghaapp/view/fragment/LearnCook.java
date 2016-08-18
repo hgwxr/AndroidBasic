@@ -118,7 +118,6 @@ public class LearnCook extends BaseFragment<LiveCookPresenter> implements BaseVi
             gridView.setAdapter(learnCookAdapter);
             learnCookAdapter.notifyDataSetChanged();
         }
-
         page++;
     }
 

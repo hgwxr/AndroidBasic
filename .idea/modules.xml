@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/button/button.iml" filepath="$PROJECT_DIR$/button/button.iml" />
       <module fileurl="file://$PROJECT_DIR$/completetextview/completetextview.iml" filepath="$PROJECT_DIR$/completetextview/completetextview.iml" />
       <module fileurl="file://$PROJECT_DIR$/dongtaiview/dongtaiview.iml" filepath="$PROJECT_DIR$/dongtaiview/dongtaiview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragment/fragment.iml" filepath="$PROJECT_DIR$/fragment/fragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/listappdemo/listappdemo.iml" filepath="$PROJECT_DIR$/listappdemo/listappdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/listmultillayout/listmultillayout.iml" filepath="$PROJECT_DIR$/listmultillayout/listmultillayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/listpartrefresh/listpartrefresh.iml" filepath="$PROJECT_DIR$/listpartrefresh/listpartrefresh.iml" />
@@ -17,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/listviewItemclick/listviewdemo2.iml" filepath="$PROJECT_DIR$/listviewItemclick/listviewdemo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvphelloworld/mvphelloworld.iml" filepath="$PROJECT_DIR$/mvphelloworld/mvphelloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/progress/progress.iml" filepath="$PROJECT_DIR$/progress/progress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlitedemo/sqlitedemo.iml" filepath="$PROJECT_DIR$/sqlitedemo/sqlitedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/xianghaapp/xianghaapp.iml" filepath="$PROJECT_DIR$/xianghaapp/xianghaapp.iml" />
     </modules>
   </component>
