@@ -10,6 +10,8 @@ import android.widget.CursorAdapter;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
+import java.sql.PreparedStatement;
+
 public class MainActivity extends AppCompatActivity {
 
     private SQLiteDatabase sqLiteDatabase;

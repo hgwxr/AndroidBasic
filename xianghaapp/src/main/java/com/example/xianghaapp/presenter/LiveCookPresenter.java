@@ -1,5 +1,7 @@
 package com.example.xianghaapp.presenter;
 
+import android.content.ContentValues;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.example.xianghaapp.app.AppContext;
@@ -10,6 +12,7 @@ import com.example.xianghaapp.model.bean.JsonRootBean;
 import com.example.xianghaapp.model.bean.learncookheader.Item_head;
 import com.example.xianghaapp.presenter.base.BasePresenter;
 import com.example.xianghaapp.util.JsonToBean;
+import com.example.xianghaapp.util.SqliteUtil;
 import com.example.xianghaapp.view.base.BaseView;
 import com.example.xianghaapp.view.fragment.LearnCook;
 import com.google.gson.Gson;
@@ -39,12 +42,29 @@ public class LiveCookPresenter extends BasePresenter {
                     //从缓存中查看是否有缓存，有 取出缓存，没有 过
                     SQLiteDatabase writableDatabase = AppContext.sqliteUtil.getWritableDatabase();
                     //取出一条
+                    Cursor cursor = writableDatabase.query("cache", new String[]{"json"}, "path=?", new String[]{PATH}, null, null, null);
 
+                    if (cursor.moveToFirst()) {
+                        int path1 = cursor.getColumnIndex("path");
+                        String json = cursor.getColumnName(path1);
+                        deliverData(json.getBytes(),flag);
+                    }
 
                     return;
                 }
                 if (bs != null) {
                     //直接缓存数据，  插入数据时若过已存在在返回-1，  在调用update更新该条数据
+                    AppContext.sqliteUtil=new SqliteUtil(AppContext.contex);
+                    SQLiteDatabase writableDatabase = AppContext.sqliteUtil .getWritableDatabase();
+                    ContentValues contentValues=new ContentValues();
+                    contentValues.put("path",PATH);
+                    contentValues.put("json",new String(bs));
+                    long insert = writableDatabase.insert("cache", null, contentValues);
+                    if(insert==-1){
+                        //contentValues.remove("path");
+                        int update = writableDatabase.update("cache", contentValues, " path=?", new String[]{PATH});
+                    }
+
                     deliverData(bs, flag);
 
                 }

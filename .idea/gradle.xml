@@ -14,8 +14,10 @@
             <option value="$PROJECT_DIR$/asyncdemo" />
             <option value="$PROJECT_DIR$/button" />
             <option value="$PROJECT_DIR$/completetextview" />
+            <option value="$PROJECT_DIR$/contentprovider" />
             <option value="$PROJECT_DIR$/dongtaiview" />
             <option value="$PROJECT_DIR$/fragment" />
+            <option value="$PROJECT_DIR$/handler" />
             <option value="$PROJECT_DIR$/listappdemo" />
             <option value="$PROJECT_DIR$/listmultillayout" />
             <option value="$PROJECT_DIR$/listpartrefresh" />
@@ -35,8 +37,10 @@
             <option value="$PROJECT_DIR$/asyncdemo" />
             <option value="$PROJECT_DIR$/button" />
             <option value="$PROJECT_DIR$/completetextview" />
+            <option value="$PROJECT_DIR$/contentprovider" />
             <option value="$PROJECT_DIR$/dongtaiview" />
             <option value="$PROJECT_DIR$/fragment" />
+            <option value="$PROJECT_DIR$/handler" />
             <option value="$PROJECT_DIR$/listappdemo" />
             <option value="$PROJECT_DIR$/listmultillayout" />
             <option value="$PROJECT_DIR$/listpartrefresh" />

@@ -265,9 +265,10 @@ public class LearnCook extends BaseFragment<LiveCookPresenter> implements BaseVi
             case R.id.changeMenu:
                 break;
             case R.id.nopic:
+                item.setChecked(!item.isChecked());
                 SharedPreferences sp = AppContext.contex.getSharedPreferences("noPic", Context.MODE_PRIVATE);
                 SharedPreferences.Editor edit = sp.edit();
-                edit.putBoolean("isNoPic", !item.isChecked()).apply();
+                edit.putBoolean("isNoPic", item.isChecked()).apply();
                 //learnCookAdapter.notifyDataSetChanged();
                 break;
         }

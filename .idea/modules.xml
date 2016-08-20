@@ -8,8 +8,10 @@
       <module fileurl="file://$PROJECT_DIR$/asyncdemo/asyncdemo.iml" filepath="$PROJECT_DIR$/asyncdemo/asyncdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/button/button.iml" filepath="$PROJECT_DIR$/button/button.iml" />
       <module fileurl="file://$PROJECT_DIR$/completetextview/completetextview.iml" filepath="$PROJECT_DIR$/completetextview/completetextview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contentprovider/contentprovider.iml" filepath="$PROJECT_DIR$/contentprovider/contentprovider.iml" />
       <module fileurl="file://$PROJECT_DIR$/dongtaiview/dongtaiview.iml" filepath="$PROJECT_DIR$/dongtaiview/dongtaiview.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragment/fragment.iml" filepath="$PROJECT_DIR$/fragment/fragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/handler/handler.iml" filepath="$PROJECT_DIR$/handler/handler.iml" />
       <module fileurl="file://$PROJECT_DIR$/listappdemo/listappdemo.iml" filepath="$PROJECT_DIR$/listappdemo/listappdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/listmultillayout/listmultillayout.iml" filepath="$PROJECT_DIR$/listmultillayout/listmultillayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/listpartrefresh/listpartrefresh.iml" filepath="$PROJECT_DIR$/listpartrefresh/listpartrefresh.iml" />
